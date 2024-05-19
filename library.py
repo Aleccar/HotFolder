@@ -1,7 +1,4 @@
 import os
-import shutil
-
-
 
 # Here's the sorting directory, so all the files within this directory will be sorted into othger directories.
 sorting_directory = r"c:\Users\Alecc\Desktop\File Sorter"

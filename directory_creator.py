@@ -1,6 +1,4 @@
-from hot_folder_library import files_in_directory
-from hot_folder_library import sorting_directory
-from hot_folder_library import sorting_dict
+from library import *
 import os 
 import shutil
 
@@ -18,5 +16,5 @@ class DirectoryCreator:
                     except:
                         continue
 
-create_directory = DirectoryCreator()
-create_directory.create_directory()
+# create_directory = DirectoryCreator()
+# create_directory.create_directory()
